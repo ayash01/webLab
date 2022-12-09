@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family:"Poppins";
+    text-align: justify;
+    display:block;
+    padding:90px;
+}
+
+#text {
+    font-size:18px;
+}
+
+.image {
+    max-width:80%;
+    max-height: 40%;
+}
