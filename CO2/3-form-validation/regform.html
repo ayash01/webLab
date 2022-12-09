@@ -1,0 +1,110 @@
+<html>
+
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>STUDENT REGISTRATION</h1>
+        <div class="table-box">
+            <table>
+                <tr>
+                    <td>
+                        <label for="FirstName">First Name :</label>
+                    </td>
+                    <td>
+                        <input type="text" id="firstname" placeholder="John" class="input-box" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="LastName">Last Name :</label>
+                    </td>
+                    <td>
+                        <input type="text" id="LastName" placeholder="Doe" class="input-box" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="dob">Date of Birth:</label>
+                    </td>
+                    <td>
+                        <input type="date" name="dob" id="dob" class="input-box" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="gender">Gender: </label>
+                    </td>
+                    <td>
+                        Male <input type="radio" name="gender" />
+                        Female <input type="radio" name="gender" />
+                        Other <input type="radio" name="gender" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="username">Mobile Number: </label>
+                    </td>
+                    <td>
+                        <input type="tel" placeholder="+91 12345 67890" class="input-box" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Address">Address :</label>
+                    </td>
+                    <td>
+                        <textarea rows="10" cols="30"
+                            placeholder="308 Negra Arroyo Lane, Albuquerque, New Mexico. 87104" id="address"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="qualif">Qualification: </label>
+                    </td>
+                    <td>
+                        <select name="qualif" id="qualif">
+                            <option value="">Select Qualification</option>
+                            <option value="bca">BCA</option>
+                            <option value="btech">B.Tech</option>
+                            <option value="mca">MCA</option>
+                            <option value="mtech">M.Tech</option>
+                        </select>
+                        <br /><br /><br />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="email">Email Address:</label></td>
+                    <td>
+                        <input type="email" name="email" id="email" placeholder="Enter your Email Address"
+                            class="input-box" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password: </label></td>
+                    <td>
+                        <input type="password" name="password" id="password" placeholder="Enter password"
+                            class="input-box" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="repassword">Re-enter password: </label></td>
+                    <td>
+                        <input type="password" name="repassword" id="repassword" placeholder="Enter your password again"
+                            class="input-box" />
+                    </td>
+                </tr>
+            </table>
+
+            <div class="btn">
+                <button type="submit">Submit</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
