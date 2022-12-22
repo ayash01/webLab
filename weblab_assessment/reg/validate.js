@@ -64,7 +64,6 @@ btn.addEventListener("click", function () {
     
     if (flag == true) {
         alert ("Please fill out the form correctly.");
-        bg.style.background = "rgb(255, 255, 255)";
 
     }
     else if (flag == false) {

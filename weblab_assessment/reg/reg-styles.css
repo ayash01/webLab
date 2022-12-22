@@ -3,6 +3,11 @@ body {
     padding: 50px;
     padding-left:240px;
     justify-content: center;
+    background: url("../reg-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(75, 75, 75);
+    background-blend-mode: multiply;
 }
 
 #form {
@@ -14,17 +19,22 @@ body {
 }
 
 .input-box {
+    font-family: "Bahnschrift";
+    font-size: 18px;
     padding: 6px;
-    width: 317px;
+    width: 350px;
     border: 1px solid rgb(0, 0, 0);
 }
 
 textarea {
+    font-family: "Bahnschrift";
+    font-size: 18px;
     border: 1px solid rgb(0, 0, 0);
+    width: 350px;
 }
 
 button {
-    border: none;
+    border: 1px solid #4d4d4d;
     background-color: black;
     color: white;
     padding: 12px 38px;
@@ -37,10 +47,19 @@ button:hover {
 }
 
 h1 {
+    color:#ffffff;
+    text-shadow: 2px 2px 4px #000000;
     padding-left:297px;
     font-size: 34px;
 }
 
 span {
-    color: rgb(165, 26, 26);
+    color: rgb(255, 0, 0);
+    text-shadow: 1px 1px 2px #000000;
+}
+
+label {
+    color:#ffffff;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 18px;
 }
