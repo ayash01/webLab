@@ -1,0 +1,46 @@
+body {
+    font-family: "Bahnschrift";
+    padding: 50px;
+    padding-left:240px;
+    justify-content: center;
+}
+
+#form {
+    padding-left: 300px;
+    padding-top: 30px;
+    display: block;
+    align-items: center;
+    font-size: 19px;
+}
+
+.input-box {
+    padding: 6px;
+    width: 317px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+textarea {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+button {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 12px 38px;
+    cursor:pointer;
+}
+
+button:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(61, 61, 61);
+}
+
+h1 {
+    padding-left:297px;
+    font-size: 34px;
+}
+
+span {
+    color: rgb(165, 26, 26);
+}

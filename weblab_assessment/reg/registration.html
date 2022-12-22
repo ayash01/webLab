@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title>Registration</title>
+        <link rel="stylesheet" href="./reg-styles.css">
+    </head>
+
+    <body id = "bg">
+        <h1>Registration</h1>
+        <div id="form">
+            <label for "Name">Full Name:</label>
+            <br>
+            <input type="text" id="name" class="input-box" placeholder="Enter Full Name">
+            <br>
+            <span id="nameError"></span>
+            <br><br>
+            <label for "address">Address</label>
+            <br>
+            <textarea rows="10" cols="40" id="address" placeholder="Address"></textarea>
+            <br>
+            <span id="addressError"></span>
+            <br><br>
+            <label for "phone">Phone Number</label>
+            <br>
+            <input type="text" id="phone" class="input-box" placeholder="99434 56436">
+            <br>
+            <span id="phoneError"></span>
+            <br><br>
+            <label for "club">Club</label>
+            <br>
+            <select name="club" id="club" class="input-box">
+                <option value="">Select Club</option>
+                <option value="rma">Real Madrid C.F</option>
+                <option value="fcb">FC Barcelona</option>
+                <option value="mun">Manchester United</option>
+                <option value="tot">Tottenham Hotspur</option>
+            </select>
+            <br>
+            <span id="clubError"></span>
+            <br><br>
+            <label for "location">Location</label>
+            <br>
+            <select name="location" id="location" class="input-box">
+                <option value="">Select Location</option>
+                <option value="aus">Australia</option>
+                <option value="br">Brazil</option>
+                <option value="fra">France</option>
+                <option value="ger">Germany</option>
+                <option value="jp">Japan</option>
+                <option value="ind">India</option>
+                <option value="srl">Sri Lanka</option>
+                <option value="uk">United Kingdom</option>
+                <option value="us">United States</option>
+            </select>
+            <br>
+            <span id="locationError"></span>
+            <br><br>
+            <label for "date">Practice Date</label>
+            <br>
+            <input type="date" name="date" id="date" class="input-box"/>
+            <br>
+            <span id="dateError"></span>
+            <br><br>
+            <label for "coach">Coach?</label>
+            <input type="checkbox" name="coach" id="coach">
+            <br>
+            <span id="coachError"></span>
+            <br><br>
+            <button id="btn">Register</button>
+        </div>
+        <script src="./validate.js"></script>
+    </body>
+</html>
