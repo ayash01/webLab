@@ -1,0 +1,37 @@
+<?php
+
+    $conn = mysqli_connect("localhost", "root", "", "employee");
+
+    if (!$conn) {
+        die ("DB connection error");
+    }
+
+    else {
+        echo 'Connection successful<br>';
+
+        if($_SERVER['REQUEST_METHOD'] == "POST"){
+
+            $id = $_POST['empID'];
+            $name = $_POST['empName'];
+            $job = $_POST['job'];
+            $manager = $_POST['managerID'];
+            $salary = $_POST['salary'];
+
+            echo $name;
+            echo $job;
+
+            $sql = "INSERT into details VALUES('$id','$name', '$job', '$manager', '$salary');";
+
+            $query = mysqli_query($conn,$sql);
+
+            if($query) {
+                echo "<br>Details added successfully";
+            }
+            else {
+                echo "Adding details failed";
+            }
+    }
+
+    }
+
+?>

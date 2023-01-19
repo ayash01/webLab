@@ -1,0 +1,33 @@
+body {
+    font-family: 'Segoe UI';
+}
+
+#formdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+label {
+    font-size:20px;
+}
+
+span {
+    color: red;
+    font-size:20px;
+}
+
+text {
+    font-size: 20px;
+}
+
+a {
+    font-size: 20px;
+    color:rgb(5, 115, 218);
+}
+
+#btn {
+    padding: 10px;
+    font-size: 20px;
+}
